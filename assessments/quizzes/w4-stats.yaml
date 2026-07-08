@@ -1,0 +1,39 @@
+module: w4-stats
+competencies:
+- SH6
+questions:
+- id: q1
+  type: mcq
+  prompt: p 值的正确解释是什么？
+  choices:
+  - 观察到的或更极端结果在原假设下出现的概率
+  - 原假设成立的概率
+  - 备择假设成立的概率
+  - 观察数据来自备择假设的概率
+- id: q2
+  type: mcq
+  prompt: 标准差（population std, ddof=0）和标准误（sample mean std error）的主要区别是什么？
+  choices:
+  - 标准差总是大于标准误
+  - 标准差描述数据分布的离散程度，标准误描述样本均值的离散程度
+  - 标准差只用于正态分布
+  - 两者没有区别
+- id: q3
+  type: mcq
+  prompt: Bonferroni 校正和 Benjamini-Hochberg FDR 比较，下列哪个说法正确？
+  choices:
+  - FDR 总是比 Bonferroni 保守
+  - 两者没有显著区别
+  - Bonferroni 更保守，FDR 更宽松但统计功效更高
+  - Bonferroni 适合所有情况，FDR 从不使用
+- id: q4
+  type: mcq
+  prompt: 中心极限定理告诉我们什么？
+  choices:
+  - 所有数据都服从正态分布
+  - 样本均值总是等于总体均值
+  - 样本量小时数据必须是正态分布
+  - 任何分布的样本均值随着样本量增大而趋向正态分布
+- id: q5
+  type: short
+  prompt: 为什么在进行多个统计检验时需要进行多重检验校正？（请提到关键词）

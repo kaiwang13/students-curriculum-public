@@ -1,0 +1,5 @@
+module: w1-cli
+title: 命令行参数解析
+competencies: [SH1, SH2]
+weight: 1.0
+threshold_pass: 0.7

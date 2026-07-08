@@ -1,0 +1,50 @@
+module: w9-diffusion
+competencies:
+- GA3
+questions:
+- id: q1
+  type: mcq
+  prompt: DDPM 的前向过程（forward process）主要做什么？
+  choices:
+  - 学习从噪声恢复数据的去噪模型
+  - 学习生成新数据的速度场
+  - 进行分类特征提取
+  - 逐步向数据中添加高斯噪声直到完全是噪声
+- id: q2
+  type: mcq
+  prompt: DDPM 的反向过程（reverse process）中神经网络学习的是什么？
+  choices:
+  - 数据的原始分布
+  - 去除前一步所添加的噪声（去噪）
+  - 数据的速度场
+  - 图像的边缘特征
+- id: q3
+  type: mcq
+  prompt: 噪声表中的 alpha_bar_t 参数主要用于控制什么？
+  choices:
+  - 每一步的加噪程度和数据与噪声的混合比例
+  - 模型的学习率
+  - 采样的速度
+  - 梯度的更新频率
+- id: q4
+  type: mcq
+  prompt: 相比 DDPM，流匹配（Flow Matching）的主要优势是什么？
+  choices:
+  - 采样更快
+  - 使用相同的反向过程
+  - 直接学习从噪声到数据的速度场，形成一个 ODE
+  - 不需要噪声表
+- id: q5
+  type: mcq
+  prompt: 无分类器引导（Classifier-Free Guidance）的核心思想是什么？
+  choices:
+  - 通过条件和无条件预测的插值增强条件生成
+  - 移除条件语言模型
+  - 完全避免使用条件信息
+  - 用分类器替代去噪网络
+- id: q6
+  type: short
+  prompt: 为什么在流匹配和扩散模型中使用重参数化（reparameterization）技巧？
+- id: q7
+  type: short
+  prompt: 扩散模型的采样过程为什么通常比较慢？

@@ -1,0 +1,47 @@
+module: cap-research-eng
+competencies:
+- SH10
+questions:
+- id: q1
+  type: mcq
+  prompt: 为什么要在机器学习实验中设定并控制随机种子（seed）？
+  choices:
+  - 防止计算机过热
+  - 确保实验可复现，同一配置下得到相同结果
+  - 提高模型的泛化能力
+  - 加快训练速度
+- id: q2
+  type: mcq
+  prompt: 为什么要在多个随机种子上运行实验并报告 mean±CI（置信区间）而不是单次结果？
+  choices:
+  - 为了减少总体计算时间
+  - 为了区分真实的模型改进与随机波动，评估结果的稳定性
+  - 为了让数据看起来更专业
+  - 因为这是论文规范要求
+- id: q3
+  type: mcq
+  prompt: 消融研究（ablation study）在机器学习中的主要目的是什么？
+  choices:
+  - 分析各个模型组件或设计选择对整体性能的贡献
+  - 去除数据集中的异常值
+  - 比较不同优化器的性能
+  - 评估硬件的计算能力
+- id: q4
+  type: mcq
+  prompt: 实验追踪（experiment tracking）的核心目的是什么？
+  choices:
+  - 自动生成论文
+  - 监控服务器的网络连接
+  - 替代版本控制系统
+  - 记录每次实验的配置、超参数和结果指标，便于重复、对比和复现
+- id: q5
+  type: mcq
+  prompt: 在保存实验结果时，将配置（config）和性能指标（metrics）保存在同一个文件中的好处是什么？
+  choices:
+  - 便于后续重现该次实验或对比不同配置下的效果
+  - 减少磁盘空间占用
+  - 提高模型的准确率
+  - 可以直接用配置文件训练模型而不需要指标
+- id: q6
+  type: short
+  prompt: 为什么要把实验的配置（config）和结果（results）一起保存？

@@ -1,0 +1,40 @@
+module: w6-dl
+competencies:
+- SH8
+- SH9
+questions:
+- id: q1
+  type: mcq
+  prompt: 调用 loss.backward() 的作用是什么？
+  choices:
+  - 更新模型参数
+  - 清空梯度缓存
+  - 计算张量对叶子节点的梯度并存储在 .grad 中
+  - 冻结计算图
+- id: q2
+  type: mcq
+  prompt: 为什么每次优化步骤前需要调用 optimizer.zero_grad()？
+  choices:
+  - 加速计算
+  - 防止模型过拟合
+  - 初始化优化器
+  - 因为梯度默认会累加
+- id: q3
+  type: mcq
+  prompt: nn.Module 中 forward() 方法的作用是什么？
+  choices:
+  - 定义模型的前向传播过程
+  - 计算损失函数
+  - 更新参数
+  - 保存检查点
+- id: q4
+  type: mcq
+  prompt: VAE 中重参数化技巧（reparameterization trick）的主要目的是什么？
+  choices:
+  - 加快训练速度
+  - 使得从隐变量采样的过程对参数可微分
+  - 增加模型容量
+  - 防止梯度爆炸
+- id: q5
+  type: short
+  prompt: 简述 KL 散度在 VAE 中的作用（请提及"正则"和"先验"等关键概念）

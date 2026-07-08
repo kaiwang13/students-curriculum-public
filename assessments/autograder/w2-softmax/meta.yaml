@@ -1,0 +1,5 @@
+module: w2-softmax
+title: 数值稳定的 Softmax
+competencies: [SH3]
+weight: 1.0
+threshold_pass: 0.7

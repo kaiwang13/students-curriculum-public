@@ -1,0 +1,7 @@
+{
+  "student_id": "PLACEHOLDER",
+  "track": "A",
+  "competencies": {},
+  "modules": {},
+  "note": "本文件会被 tools.new_student.create_student 覆盖为完整初始状态"
+}

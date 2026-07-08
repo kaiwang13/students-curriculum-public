@@ -1,0 +1,5 @@
+module: b8-genopca
+title: 群体结构的基因型主成分分析
+competencies: [GB3]
+weight: 1.0
+threshold_pass: 0.7

@@ -1,0 +1,5 @@
+module: w4-descriptive
+title: W4 · 描述统计
+competencies: [SH6]
+weight: 1.0
+threshold_pass: 0.7

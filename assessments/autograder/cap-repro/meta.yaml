@@ -1,0 +1,4 @@
+module: cap-repro
+competencies: [SH10]
+weight: 1.0
+threshold_pass: 0.7

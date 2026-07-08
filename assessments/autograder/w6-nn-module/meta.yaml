@@ -1,0 +1,5 @@
+module: w6-nn-module
+title: PyTorch nn.Module - MLP
+competencies: [SH8]
+weight: 1.0
+threshold_pass: 0.7

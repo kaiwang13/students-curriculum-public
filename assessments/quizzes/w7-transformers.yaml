@@ -1,0 +1,39 @@
+module: w7-transformers
+competencies:
+- GA1
+questions:
+- id: q1
+  type: mcq
+  prompt: 缩放点积注意力机制计算的是什么？
+  choices:
+  - 对 Value 向量的加权求和，权重由 Query-Key 点积经 softmax 归一化得到
+  - Query 和 Key 的相似度
+  - 所有 token 之间的距离
+  - 特征的排序
+- id: q2
+  type: mcq
+  prompt: 为什么在计算注意力分数时除以 √d（其中 d 是特征维度）？
+  choices:
+  - 加速计算
+  - 减少内存使用
+  - 防止 softmax 函数饱和，稳定梯度
+  - 提高注意力的稀疏性
+- id: q3
+  type: mcq
+  prompt: 多头注意力的主要作用是什么？
+  choices:
+  - 增加模型参数数量
+  - 让模型在多个子空间学习不同的表示能力
+  - 提高计算速度
+  - 减少过拟合
+- id: q4
+  type: mcq
+  prompt: 位置编码（positional encoding）在 Transformer 中的作用是什么？
+  choices:
+  - 替代 embedding
+  - 进行特征标准化
+  - 控制注意力范围
+  - 向模型注入序列中 token 的顺序信息
+- id: q5
+  type: short
+  prompt: '[CLS] token 在 FT-Transformer 中的作用是什么？（请提到关键词）'

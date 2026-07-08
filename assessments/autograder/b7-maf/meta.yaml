@@ -1,0 +1,5 @@
+module: b7-maf
+title: MAF 和 MAC 计算
+competencies: [GB2]
+weight: 1.0
+threshold_pass: 0.7

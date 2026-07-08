@@ -1,0 +1,5 @@
+module: p-w6-vae
+title: W6 VAE 阶段关卡
+competencies: [SH9]
+weight: 2.0
+threshold_pass: 0.7

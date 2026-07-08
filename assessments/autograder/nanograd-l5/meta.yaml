@@ -1,0 +1,5 @@
+module: nanograd-l5
+title: nanograd L5 · Module/Linear/优化器
+competencies: [SH8]
+weight: 1.0
+threshold_pass: 0.7

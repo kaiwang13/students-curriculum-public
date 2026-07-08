@@ -1,0 +1,40 @@
+module: w8b-lmm
+title: 群体结构与线性混合模型
+competencies:
+- GB3
+questions:
+- id: q1_pop_confounder
+  type: mcq
+  prompt: 为什么群体结构会导致假关联？
+  choices:
+  - 当样本来自不同群体时，群体特异的等位基因频率可能与表型关联，产生虚假的遗传信号
+  - 群体结构会直接改变基因型-表型关系的生物学机制
+  - 群体结构会自动增加样本量，降低统计功效
+  - 群体结构主要影响测序深度的变异
+- id: q2_pca_use
+  type: mcq
+  prompt: 在关联分析中，基因型主成分（PC）主要用于：
+  choices:
+  - 加快计算速度
+  - 捕捉群体结构，作为关联模型的协变量以校正群体分层
+  - 替代真实表型进行分析
+  - 消除所有的连锁不平衡
+- id: q3_lmm_polygenic
+  type: mcq
+  prompt: 线性混合模型（LMM）的核心思想是将遗传效应分为：
+  choices:
+  - 仅显性效应和隐性效应
+  - 被检验变异和背景噪声
+  - 被检验变异的固定效应和多基因随机效应
+  - 环境效应和测序错误
+- id: q4_loco_purpose
+  type: mcq
+  prompt: 留一染色体（LOCO）残差化方法的主要目的是：
+  choices:
+  - 提高统计功效
+  - 避免被检验变异及其连锁变异通过相同的多基因背景效应泄漏到表型中（proximal contamination）
+  - 消除所有的性状遗传率
+  - 减少样本量需求
+- id: q5_regenie_short
+  type: short
+  prompt: REGENIE 两步法在关联分析中做了什么？请用 20 字以内概括，包含岭回归和关联。

@@ -1,0 +1,5 @@
+module: w1-dataclass
+title: 数据类（Dataclass）
+competencies: [SH1]
+weight: 1.0
+threshold_pass: 0.7

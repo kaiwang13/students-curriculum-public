@@ -1,0 +1,5 @@
+module: w3-groupby
+title: groupby 分组求聚合
+competencies: [SH4]
+weight: 1.0
+threshold_pass: 0.7

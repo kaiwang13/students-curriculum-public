@@ -1,0 +1,5 @@
+module: w5-logreg
+title: 逻辑回归与概率预测
+competencies: [SH7]
+weight: 1.0
+threshold_pass: 0.7

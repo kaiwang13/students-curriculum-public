@@ -1,0 +1,5 @@
+module: nanograd-l1
+title: nanograd L1 · 标量自动微分
+competencies: [SH8]
+weight: 1.0
+threshold_pass: 0.7

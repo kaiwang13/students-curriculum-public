@@ -1,0 +1,5 @@
+module: w10-checkpoint
+title: 检查点保存与恢复
+competencies: [GA4]
+weight: 1.0
+threshold_pass: 0.7

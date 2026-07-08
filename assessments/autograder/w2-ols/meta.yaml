@@ -1,0 +1,5 @@
+module: w2-ols
+title: 普通最小二乘法（OLS）
+competencies: [SH3]
+weight: 1.0
+threshold_pass: 0.7

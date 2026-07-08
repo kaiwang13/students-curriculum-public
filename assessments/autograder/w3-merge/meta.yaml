@@ -1,0 +1,5 @@
+module: w3-merge
+title: 表连接与 inner join
+competencies: [SH4]
+weight: 1.0
+threshold_pass: 0.7

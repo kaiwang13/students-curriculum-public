@@ -1,0 +1,5 @@
+module: p-w3-data-pipeline
+title: W3 数据管道小项目
+competencies: [SH4, SH5]
+weight: 2.0
+threshold_pass: 0.7

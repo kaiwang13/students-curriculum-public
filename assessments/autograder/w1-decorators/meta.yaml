@@ -1,0 +1,5 @@
+module: w1-decorators
+title: 装饰器和上下文管理器
+competencies: [SH1]
+weight: 1.0
+threshold_pass: 0.7

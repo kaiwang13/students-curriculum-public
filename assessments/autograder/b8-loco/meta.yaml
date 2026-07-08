@@ -1,0 +1,5 @@
+module: b8-loco
+title: 留一染色体外型残差化
+competencies: [GB3]
+weight: 1.0
+threshold_pass: 0.7

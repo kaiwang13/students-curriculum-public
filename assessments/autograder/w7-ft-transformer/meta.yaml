@@ -1,0 +1,5 @@
+module: w7-ft-transformer
+title: FT-Transformer 特征分词器
+competencies: [GA1]
+weight: 1.0
+threshold_pass: 0.7

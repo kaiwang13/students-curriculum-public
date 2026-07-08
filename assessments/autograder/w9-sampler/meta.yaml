@@ -1,0 +1,5 @@
+module: w9-sampler
+title: ODE 采样与欧拉积分
+competencies: [GA3]
+weight: 1.0
+threshold_pass: 0.7

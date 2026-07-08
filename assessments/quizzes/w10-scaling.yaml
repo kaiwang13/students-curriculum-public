@@ -1,0 +1,39 @@
+module: w10-scaling
+competencies:
+- GA4
+questions:
+- id: q1
+  type: mcq
+  prompt: 指数滑动平均（EMA）的主要作用是什么？
+  choices:
+  - 平滑参数变化、使评估权重更稳定
+  - 加速模型收敛
+  - 减少显存占用
+  - 实现梯度累积
+- id: q2
+  type: mcq
+  prompt: 梯度累积的核心目的是什么？
+  choices:
+  - 提高模型精度
+  - 加速训练速度
+  - 用小显存模拟大 batch 尺寸
+  - 减少模型参数
+- id: q3
+  type: mcq
+  prompt: 混合精度训练（bf16/fp16）的主要优势是什么？
+  choices:
+  - 提高模型泛化能力
+  - 实现更好的梯度平滑
+  - 简化模型架构
+  - 节省显存、加速计算
+- id: q4
+  type: mcq
+  prompt: 数据并行（DDP）在分布式训练中的工作原理是什么？
+  choices:
+  - 将模型分散到多个 GPU
+  - 在多个 GPU 上各自计算梯度，然后进行 all-reduce
+  - 交替使用不同 GPU
+  - 在 CPU 上计算梯度
+- id: q5
+  type: short
+  prompt: 为什么要保存 checkpoint？

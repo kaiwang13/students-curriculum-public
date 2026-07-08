@@ -1,0 +1,39 @@
+module: w3-pandas
+competencies:
+- SH4
+questions:
+- id: q1
+  type: mcq
+  prompt: groupby 后，df.groupby('A')['B'].mean() 返回什么？
+  choices:
+  - Series
+  - DataFrame
+  - list
+  - dict
+- id: q2
+  type: mcq
+  prompt: 两个表 inner join vs left join，inner join 的特点是？
+  choices:
+  - 保留左表所有行
+  - 保留右表所有行
+  - 只保留两表都有的行
+  - 返回多个表
+- id: q3
+  type: mcq
+  prompt: Parquet 相比 CSV 的主要优势是？
+  choices:
+  - 人类易读
+  - 列式存储、压缩、带类型信息
+  - 文件更大
+  - 不支持缺失值
+- id: q4
+  type: mcq
+  prompt: '`.loc` 与 `.iloc` 的核心区别是什么？'
+  choices:
+  - '`.loc` 只能用于单行，`.iloc` 用于多行'
+  - '`.loc` 比 `.iloc` 更快'
+  - '`.iloc` 按标签索引，`.loc` 按整数位置索引'
+  - '`.loc` 按标签（label）索引，`.iloc` 按整数位置（integer position）索引'
+- id: q5
+  type: short
+  prompt: 什么是 pandas 中的 SettingWithCopy 警告？它提醒什么？（请提到关键词）

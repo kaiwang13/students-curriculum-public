@@ -1,0 +1,5 @@
+module: w6-vae
+title: 变分自编码器 (VAE)
+competencies: [SH9]
+weight: 1.0
+threshold_pass: 0.7

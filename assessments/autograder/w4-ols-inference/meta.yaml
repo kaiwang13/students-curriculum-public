@@ -1,0 +1,5 @@
+module: w4-ols-inference
+title: W4 · OLS 推断
+competencies: [SH6]
+weight: 1.0
+threshold_pass: 0.7

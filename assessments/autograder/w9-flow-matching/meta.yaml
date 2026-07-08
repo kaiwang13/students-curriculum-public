@@ -1,0 +1,5 @@
+module: w9-flow-matching
+title: 流匹配与速度场学习
+competencies: [GA3]
+weight: 1.0
+threshold_pass: 0.7

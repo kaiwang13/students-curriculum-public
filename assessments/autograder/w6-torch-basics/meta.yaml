@@ -1,0 +1,5 @@
+module: w6-torch-basics
+title: PyTorch 基础 - 自动微分
+competencies: [SH8]
+weight: 1.0
+threshold_pass: 0.7

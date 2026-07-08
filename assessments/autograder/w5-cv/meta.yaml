@@ -1,0 +1,5 @@
+module: w5-cv
+title: K折交叉验证划分
+competencies: [SH7]
+weight: 1.0
+threshold_pass: 0.7

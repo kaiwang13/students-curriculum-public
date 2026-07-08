@@ -1,0 +1,19 @@
+name: students
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - statsmodels        # W4 统计推断 / W7-B 关联检验
+  - xgboost            # W5 机器学习 / W10-B 疾病评分
+  - matplotlib
+  - pyyaml
+  - defusedxml
+  - pytest
+  - jupyterlab
+  - pip
+  - pip:
+      - torch          # W6+ 深度学习（CPU 版即可自测）

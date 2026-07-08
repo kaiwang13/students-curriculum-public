@@ -1,0 +1,5 @@
+module: w10-ema
+title: 指数滑动平均
+competencies: [GA4]
+weight: 1.0
+threshold_pass: 0.7

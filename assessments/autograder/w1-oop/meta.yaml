@@ -1,0 +1,5 @@
+module: w1-oop
+title: 面向对象编程基础
+competencies: [SH1]
+weight: 1.0
+threshold_pass: 0.7

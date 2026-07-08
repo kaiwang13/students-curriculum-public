@@ -1,0 +1,5 @@
+module: nanograd-l2
+title: nanograd L2 · 更多算子
+competencies: [SH8]
+weight: 1.0
+threshold_pass: 0.7

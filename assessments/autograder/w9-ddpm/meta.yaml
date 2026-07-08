@@ -1,0 +1,5 @@
+module: w9-ddpm
+title: DDPM 前向过程与加噪
+competencies: [GA3]
+weight: 1.0
+threshold_pass: 0.7

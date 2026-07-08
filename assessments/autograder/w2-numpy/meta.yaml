@@ -1,0 +1,5 @@
+module: w2-numpy
+title: NumPy 向量化基础
+competencies: [SH3]
+weight: 1.0
+threshold_pass: 0.7

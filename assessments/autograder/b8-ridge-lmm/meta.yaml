@@ -1,0 +1,5 @@
+module: b8-ridge-lmm
+title: 全基因组岭回归与线性混合模型
+competencies: [GB3]
+weight: 1.0
+threshold_pass: 0.7
