@@ -1,0 +1,14 @@
+# 课程依赖 —— 用 uv 安装： uv pip install -r env/requirements.txt
+# 均来自 PyPI；CPU 版即可完成全部自测（GPU 见 env/compute-ramp.md）。
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels        # 统计推断 / 关联检验
+xgboost            # 经典机器学习
+matplotlib
+pyyaml
+defusedxml
+pytest
+jupyterlab
+torch              # 深度学习（CPU 版即可自测）
