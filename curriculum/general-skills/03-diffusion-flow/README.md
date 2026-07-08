@@ -5,8 +5,10 @@
 - `lessons/02-flow-matching.ipynb`
 - `lessons/03-sampling-guidance.ipynb`
 
-## 练习 Exercises
-- ✍️ 编程练习：`w9-ddpm` · `w9-flow-matching` · `w9-sampler`（在 `assessments/autograder/<名>/starter.py` 里实现，`python check.py <名>` 自测）
+## 练习 Exercises（本章 `assignments/` 下）
+- ✍️ 编程 `01-ddpm`：在 `assignments/01-ddpm/starter.py` 里实现，然后 `python check.py 01-ddpm` 自测
+- ✍️ 编程 `02-flow-matching`：在 `assignments/02-flow-matching/starter.py` 里实现，然后 `python check.py 02-flow-matching` 自测
+- ✍️ 编程 `03-sampler`：在 `assignments/03-sampler/starter.py` 里实现，然后 `python check.py 03-sampler` 自测
 
 ## 小测 Quiz
 - `assessments/quizzes/w9-diffusion.yaml`

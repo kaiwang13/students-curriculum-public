@@ -8,8 +8,12 @@
 - `lessons/05-ols-inference.ipynb`
 - `lessons/06-multiple-testing-bootstrap.ipynb`
 
-## 练习 Exercises
-- ✍️ 编程练习：`w4-descriptive` · `w4-clt` · `w4-ttest` · `w4-ols-inference` · `w4-multiple-testing`（在 `assessments/autograder/<名>/starter.py` 里实现，`python check.py <名>` 自测）
+## 练习 Exercises（本章 `assignments/` 下）
+- ✍️ 编程 `01-descriptive`：在 `assignments/01-descriptive/starter.py` 里实现，然后 `python check.py 01-descriptive` 自测
+- ✍️ 编程 `02-clt`：在 `assignments/02-clt/starter.py` 里实现，然后 `python check.py 02-clt` 自测
+- ✍️ 编程 `03-ttest`：在 `assignments/03-ttest/starter.py` 里实现，然后 `python check.py 03-ttest` 自测
+- ✍️ 编程 `04-ols-inference`：在 `assignments/04-ols-inference/starter.py` 里实现，然后 `python check.py 04-ols-inference` 自测
+- ✍️ 编程 `05-multiple-testing`：在 `assignments/05-multiple-testing/starter.py` 里实现，然后 `python check.py 05-multiple-testing` 自测
 
 ## 小测 Quiz
 - `assessments/quizzes/w4-stats.yaml`

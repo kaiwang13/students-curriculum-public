@@ -7,8 +7,12 @@
 - `lessons/04-decorators-context-generators.ipynb`
 - `lessons/05-pytest-and-git.ipynb`
 
-## 练习 Exercises
-- ✍️ 编程练习：`w1-oop` · `w1-dataclass` · `w1-cli` · `w1-decorators` · `w1-generators`（在 `assessments/autograder/<名>/starter.py` 里实现，`python check.py <名>` 自测）
+## 练习 Exercises（本章 `assignments/` 下）
+- ✍️ 编程 `01-oop`：在 `assignments/01-oop/starter.py` 里实现，然后 `python check.py 01-oop` 自测
+- ✍️ 编程 `02-dataclass`：在 `assignments/02-dataclass/starter.py` 里实现，然后 `python check.py 02-dataclass` 自测
+- ✍️ 编程 `03-cli`：在 `assignments/03-cli/starter.py` 里实现，然后 `python check.py 03-cli` 自测
+- ✍️ 编程 `04-decorators`：在 `assignments/04-decorators/starter.py` 里实现，然后 `python check.py 04-decorators` 自测
+- ✍️ 编程 `05-generators`：在 `assignments/05-generators/starter.py` 里实现，然后 `python check.py 05-generators` 自测
 
 ## 小测 Quiz
 - `assessments/quizzes/w1-python.yaml`

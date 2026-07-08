@@ -48,7 +48,7 @@ progress/<你的名字>/
 
 ```bash
 # 从仓库根目录运行
-python check.py p-w3-data-pipeline
+python check.py 05-data-pipeline
 ```
 
 通过条件：`score >= 0.7`（即 4 项测试中至少通过 2～3 项）。

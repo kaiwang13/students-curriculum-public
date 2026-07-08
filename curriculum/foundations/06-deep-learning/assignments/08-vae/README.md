@@ -59,7 +59,7 @@ progress/<你的名字>/
 
 ```bash
 # 从仓库根目录运行（使用 pt29 环境）
-python check.py p-w6-vae
+python check.py 08-vae
 ```
 
 通过条件：`score >= 0.7`（即 3 项测试中至少通过 2 项）。

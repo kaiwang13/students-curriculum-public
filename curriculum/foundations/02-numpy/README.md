@@ -8,8 +8,12 @@
 - `lessons/05-linalg-einsum.ipynb`
 - `lessons/06-random-repro.ipynb`
 
-## 练习 Exercises
-- ✍️ 编程练习：`w2-numpy` · `w2-broadcasting` · `w2-einsum` · `w2-ols` · `w2-softmax`（在 `assessments/autograder/<名>/starter.py` 里实现，`python check.py <名>` 自测）
+## 练习 Exercises（本章 `assignments/` 下）
+- ✍️ 编程 `01-numpy`：在 `assignments/01-numpy/starter.py` 里实现，然后 `python check.py 01-numpy` 自测
+- ✍️ 编程 `02-broadcasting`：在 `assignments/02-broadcasting/starter.py` 里实现，然后 `python check.py 02-broadcasting` 自测
+- ✍️ 编程 `03-einsum`：在 `assignments/03-einsum/starter.py` 里实现，然后 `python check.py 03-einsum` 自测
+- ✍️ 编程 `04-ols`：在 `assignments/04-ols/starter.py` 里实现，然后 `python check.py 04-ols` 自测
+- ✍️ 编程 `05-softmax`：在 `assignments/05-softmax/starter.py` 里实现，然后 `python check.py 05-softmax` 自测
 
 ## 小测 Quiz
 - `assessments/quizzes/w2-numpy.yaml`

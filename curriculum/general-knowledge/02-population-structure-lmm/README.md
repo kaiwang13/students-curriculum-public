@@ -5,8 +5,10 @@
 - `lessons/02-lmm-ridge.ipynb`
 - `lessons/03-genomics-formats.ipynb`
 
-## 练习 Exercises
-- ✍️ 编程练习：`b8-genopca` · `b8-ridge-lmm` · `b8-loco`（在 `assessments/autograder/<名>/starter.py` 里实现，`python check.py <名>` 自测）
+## 练习 Exercises（本章 `assignments/` 下）
+- ✍️ 编程 `01-genopca`：在 `assignments/01-genopca/starter.py` 里实现，然后 `python check.py 01-genopca` 自测
+- ✍️ 编程 `02-ridge-lmm`：在 `assignments/02-ridge-lmm/starter.py` 里实现，然后 `python check.py 02-ridge-lmm` 自测
+- ✍️ 编程 `03-loco`：在 `assignments/03-loco/starter.py` 里实现，然后 `python check.py 03-loco` 自测
 
 ## 小测 Quiz
 - `assessments/quizzes/w8b-lmm.yaml`
